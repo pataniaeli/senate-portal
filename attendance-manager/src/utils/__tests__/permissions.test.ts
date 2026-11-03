@@ -10,7 +10,14 @@ describe('capabilitiesFor', () => {
     ['vice-president-of-academic-affairs', ['roster']],
     [
       'vice-president-of-operational-affairs',
-      ['hostVotes', 'manageSemesters', 'readRecords', 'roster'],
+      [
+        'hostVotes',
+        'manageAttendance',
+        'manageSemesters',
+        'readRecords',
+        'roster',
+        'superadmin',
+      ],
     ],
     [
       'speaker-of-the-senate',
@@ -18,7 +25,13 @@ describe('capabilitiesFor', () => {
     ],
     [
       'senate-operations-coordinator',
-      ['hostVotes', 'manageAttendance', 'readRecords'],
+      [
+        'hostVotes',
+        'manageAttendance',
+        'manageSemesters',
+        'readRecords',
+        'superadmin',
+      ],
     ],
     [
       'digital-innovation-manager',

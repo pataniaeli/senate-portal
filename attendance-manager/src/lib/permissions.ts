@@ -55,6 +55,8 @@ const POSITIONS: Record<Capability, readonly string[]> = {
   superadmin: [
     'digital-innovation-manager',
     'digital-innovation-senateportal-team-lead',
+    'vice-president-of-operational-affairs',
+    'senate-operations-coordinator',
   ],
 };
 

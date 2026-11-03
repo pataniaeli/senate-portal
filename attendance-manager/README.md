@@ -101,10 +101,10 @@ The portal has no roles of its own. What someone may do comes from their SGAuth 
 | Vote | `senator` |
 | Be on the roster (own attendance, excusal requests) | `senator`, `parliamentarian`, `vice-president-of-*`, `student-body-president`, `executive-vice-president` |
 | Approve or deny requests, take attendance, run meetings | `speaker-of-the-senate`, `senate-operations-coordinator` |
-| Host votes (no vote of their own) | `speaker-of-the-senate`, `senate-operations-coordinator`, `vice-president-of-operational-affairs` |
-| Manage semesters | `speaker-of-the-senate`, `vice-president-of-operational-affairs` |
+| Host votes (no vote of their own) | `speaker-of-the-senate`, `senate-operations-coordinator`, `vice-president-of-operational-affairs`, `senate-operations-coordinator` |
+| Manage semesters | `speaker-of-the-senate`, `vice-president-of-operational-affairs`, `senate-operations-coordinator` |
 | Read attendance and non-secret votes | `speaker-of-the-senate`, `senate-operations-coordinator`, `vice-president-of-operational-affairs`, `student-body-president`, `executive-vice-president` |
-| Superadmin (all of the above but voting and the roster, plus editing member profiles) | `digital-innovation-manager`, `digital-innovation-senateportal-team-lead` |
+| Superadmin (all of the above but voting and the roster, plus editing member profiles) | `digital-innovation-manager`, `digital-innovation-senateportal-team-lead`, `vice-president-of-operational-affairs`, `senate-operations-coordinator` |
 
 Only people on the roster have a portal profile (and give an NUID). Staff who only administer the portal sign in without one. The roster is read from the positions recorded at each member's last sign-in, so a position change shows on the roster once that person next signs in; members who have not signed in since the move to SGAuth stay on it until they do.
 
